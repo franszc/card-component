@@ -17,7 +17,7 @@
 ### Links
 
 - Solution URL: [https://github.com/franszc/card-component-main]
-- Live Site URL: [https://franszc.github.io/card-component-main/]
+- Live Site URL: [ https://franszc.github.io/card-component/]
 
 ### Built with
 
