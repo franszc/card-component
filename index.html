@@ -8,42 +8,42 @@
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
  <main class="container">
    <article>
      <div>
-       <img src="/images/image-equilibrium.jpg" alt="Equilibrium">
+       <img class="equilibrium" src="/images/image-equilibrium.jpg" alt="Equilibrium">
      </div>
-     <h1>Equilibrium #3429</h1>
-     <p>Our Equilibrium collection promotes balance and calm.<p>
+     <!-img class="eye" src="./images/icon-view.svg" alt="eye"-> 
+     <div class="text">
+       <h1>Equilibrium #3429</h1>
+       <p>Our Equilibrium collection promotes balance and calm.<p>
+     </div>
    </article>
+   <div class=" complemento">
+     <ul class="fa-ul" >
+       <li class="eth">
+         <span class="fa-li" >
+           <img src="/images/icon-ethereum.svg" alt="" class="icon" > 
+           0.041 ETH
+         </span>
+       </li>
 
-   <ul class="fa-ul" >
-     <li class="eth">
-       <span class="fa-li" >
-         <img src="/images/icon-ethereum.svg" alt="" class="icon" > 
-         0.041 ETH
-       </span>
-      </li>
+       <li class="days">
+         <span class="fa-li" >
+           <img src="/images/icon-clock.svg" alt="" class="icon-clock"> 
+          3 days left
+         </span>
+       </li>
+      </ul>
 
-      <li class="days">
-        <span class="fa-li" >
-         <img src="/images/icon-clock.svg" alt="" class="icon-clock"> 
-         3 days left
-        </span>
-      </li>
-    </ul>
-
-   <nav class="autor">
-     <img class="jules-img" src="./images/image-avatar.png" alt="">
-     <p class="creator">Creation of <a href="">Jules Wyvern</a></p>
-   </nav>
+     <nav class="autor">
+       <img class="jules-img" src="./images/image-avatar.png" alt="">
+       <p class="creator">Creation of <a href="">Jules Wyvern</a></p>
+     </nav>
+   </div>
  </main>
 </body>
 </html>
