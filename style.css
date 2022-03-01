@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Outfit:wght@300;400;600 & display=swap');
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  
+}
+  
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  color:  hsl(0, 0%, 100%);
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+ul::before {
+  content: "";
+  border: 0;
+  height: 1px;
+  background: #2f4159;
+  width: 280px;
+  position: absolute;
+  top: 485px;
+}
+
+.days, p {
+  color: hsl(215, 51%, 70%);
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  color: #99aac8;
+}
+
+.jules-img {
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.creator {
+  text-indent: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+
+.days, .eth {
+  line-height: 3;
+}
+
+.icon-clock {
+  width: 13px;
+}
+
+.icon {
+  width: 9px; ;
+}
+
+.container {
+  padding: 1rem; 
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 1.6rem auto;
+  max-width: 280px ;
+  box-shadow: 0px 20px 5px 12px #0c1729, 0 30px 5px 50px #0c192c;
+}
+
+.rodape {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
