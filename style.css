@@ -3,7 +3,18 @@
 body {
   background-color: hsl(217, 54%, 11%);
   font-family: 'Outfit', sans-serif;
-  
+  margin: 0;
+}
+
+.container {
+  padding: 1.2rem; 
+  height: 510px;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0px auto;
+  margin-top: 20px;
+  max-width: 300px;
+  box-shadow: 0px 20px 5px 12px #0c1729, 0 30px 5px 50px #0c192c;
 }
 
 .equilibrium {
@@ -36,10 +47,12 @@ ul {
 
 ul::before {
   content: "";
+  margin-left: -12px;
   border: 0;
   height: 1px;
   background: #2f4159;
-  width: 280px;
+  width: 304px;
+  margin-left: -2px;
   position: absolute;
   top: 485px;
   transform: translateY(-430px);
@@ -80,15 +93,6 @@ a {
   line-height: 3;
 }
 
-.container {
-  padding: 1rem; 
-  height: 510px;
-  border-radius: 20px;
-  background-color: hsl(216, 50%, 16%);
-  margin: 1.6rem auto;
-  max-width: 280px ;
-  box-shadow: 0px 20px 5px 12px #0c1729, 0 30px 5px 50px #0c192c;
-}
 
 .rodape {
   bottom: 0;
